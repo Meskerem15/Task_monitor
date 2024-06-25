@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    color: #ff5722;
+}
+
+.navbar-brand:hover {
+    color: #e64a19; /* Hover color */
+}
+
+/* Content Header */
+.content-header h1 {
+    color:cornflowerblue; 
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #343a40;
+    min-height: 100vh;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar .nav-link {
+    color: white;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+.content-wrapper {
+    flex: 1;
+    padding: 20px;
+    
+}
+
+.content-header .border-primary {
+    border-top: 3px solid #007bff;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.modal .btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+}
+
+.modal .btn-close span {
+    font-size: 20px;
+    color: #333;
+}
+
+.modal .btn-close:hover span {
+    color: #000;
+}
+
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1050;
+}
